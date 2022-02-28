@@ -22,7 +22,7 @@ const WorksCard = (props) =>{
                             hover:scale-110 transition-transform">
                     {props.contents.image.src ? (
                         <div className="flex justify-center m-1 p-3 h-64">
-                            <img src={props.contents.image.src} />
+                            <img src={props.contents.image.src} alt={`img${props.contents.title}`}/>
                         </div>
                     ):(
                         <div className="flex justify-center items-center m-1 p-2 h-64">

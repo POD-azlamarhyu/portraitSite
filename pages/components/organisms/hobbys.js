@@ -33,7 +33,7 @@ const HobbysRightCard = (props) =>{
                             hover:scale-110 transition-transform">
             <div className="w-5/12">
                 <div className="mx-3 my-3 p-2 flex justify-center items-center">
-                        <img src={props.contents.image.src} alt="img"/>
+                        <img src={props.contents.image.src} alt={`img${props.contents.title}`}/>
                     </div>
                 </div>
             <div className="w-7/12">
