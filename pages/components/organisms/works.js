@@ -61,7 +61,7 @@ const Works = () => {
                 <div className="min-h-screen flex justify-center items-center flex-wrap mx-2">
                     {worksCardContents.map((contents) => {
                         return (
-                            <WorksCard contents={contents} />
+                            <WorksCard key={contents.id} contents={contents} />
                         );
                     })}
                 </div>

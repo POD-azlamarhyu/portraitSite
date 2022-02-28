@@ -62,9 +62,9 @@ const Hobbys = () => {
                     {hobbysCardContents.map((contents)=>{
                         return(
                             contents.id % 2 === 0 ? (
-                                <HobbysLeftCard contents={contents} />
+                                <HobbysLeftCard key={contents.id} contents={contents} />
                             ):(
-                                <HobbysRightCard contents={contents} />
+                                <HobbysRightCard key={contents.id} contents={contents} />
                             )
                         );
                     })}
