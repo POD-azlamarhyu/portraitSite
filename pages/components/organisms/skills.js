@@ -1,52 +1,53 @@
 import React from "react";
 import Image from "next/image";
 import Rating from '@mui/material/Rating';
-import { name } from "../../api/variable";
+import { skillCardContents } from "../../api/variable";
 import Header from "./header";
 import Footer from "./footer";
+import "devicon";
 
-const SkillItems = [
-    {
-        skill:'Java',
-    }
-]
+
+const SkillCard = (props) =>{
+    return(
+        <div className="p-4">
+            <div className="bg-gradient-to-r from-blue-500 to-blue-200 w-132 h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform">
+                <div className="flex justify-center items-center mx-3 my-3">
+                    <span className={`${props.contents.image} text-9xl p-1`}></span>
+                </div>
+                <div className="m-0 p-0 border-t-2"></div>
+                <div className="mx-3 my-2">
+                    <div className="mx-2">
+                        <p className="mx-2 my-3 p-0 text-4xl">{props.contents.title}</p>
+                    </div>
+                    <div className="mx-5 mt-1 p-0">
+                        <Rating 
+                            name="read-only" 
+                            value={props.contents.stars} 
+                            readOnly
+                        />
+                    </div>
+                    <div className="mx-3 my-2 p-0">
+                        <p className="mx-2 p-0 text-lg">{props.contents.description}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
 
 const Skills = () =>{
     return(
         <>
             <Header />
-                <div className="min-h-screen flex justify-center items-center flex-wrap mx-5">
-                    <div className="p-4">
-                        <div className="bg-gradient-to-r from-blue-500 to-blue-300 
-                                        w-96 h-60 m-auto rounded-xl shadow-2xl transform 
-                                        hover:scale-110 transition-transform">
-                            
-                            <div className="flex justify-center p-4">
-                                <Image 
-                                    className=""
-                                    src={require("../../../public/ruby.png")} 
-                                    width={100} 
-                                    height={100} 
-                                    alt="img"
-                                />
-                            </div>
-                            <div className="m-0 p-0 border-t-2"></div>
-                            <div className="mx-2">
-                                <p className="mx-1 text-2xl">Rails</p>
-                            </div>
-                            <div className="mx-2 mt-1 p-0">
-                                <Rating 
-                                    name="read-only" 
-                                    value={"2"} 
-                                    readOnly
-                                />
-                            </div>
-                            <div className="mx-2 my-2 p-0">
-                                <p className="mx-1 p-0">Web開発で勉強中</p>
-                            </div>
-                        </div>
-                    </div>
+            <div className="flex justify-center">
+                <div className="min-h-screen flex flex-wrap justify-center items-center mx-6 my-5">
+                    {skillCardContents.map((contents)=> {
+                        return (
+                            <SkillCard contents = {contents} />
+                        );
+                    })}
                 </div>
+            </div>
             <Footer />
         </>
     );

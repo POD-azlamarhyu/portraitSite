@@ -4,38 +4,66 @@ import Footer from "./footer";
 import Image from "next/image";
 import GitHub from "@mui/icons-material/GitHub";
 import "devicon";
+import { worksCardContents } from "../../api/variable";
+import CardMedia from "@material-ui/core/CardMedia";
 
-const Works = () =>{
+
+
+const WorksCard = (props) =>{
+
+    const onClickGit = (url) => {
+        window.open(url);
+    }
+
+    return (
+        <div className="p-5">
+            <div className="bg-gradient-to-r from-blue-500 to-blue-300 
+                            w-140 h-100 m-auto rounded-xl shadow-2xl transform 
+                            hover:scale-110 transition-transform">
+                    {props.contents.image.src ? (
+                        <div className="flex justify-center m-1 p-3 h-64">
+                            <img src={props.contents.image.src} />
+                        </div>
+                    ):(
+                        <div className="flex justify-center items-center m-1 p-2 h-64">
+                            <p className="text-6xl text-gray-500">No Image</p>
+                        </div>
+                    )}
+                <div className="m-0 p-0 border-t-2"></div>
+                <div className="m-3">
+                    <div className="mx-2 my-1 flex">
+                        <p className="mx-1 text-4xl">{props.contents.title}</p>
+                        <GitHub
+                            className="m-2 p-0"
+                            onClick={()=> onClickGit(props.contents.repository)}
+                        />
+                    </div>
+                    <div className="mx-2 my-2 p-0">
+                        <p className="mx-1 p-0">{props.contents.description}</p>
+                    </div>
+                    <span className="mx-2 my-4 py-2">
+                        {props.contents.useTech.map((tech) => {
+                            return(
+                                <span className={`${tech} text-5xl mx-2 my-3`}></span>
+                            );
+                        })}
+                    </span>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+const Works = () => {
     return(
         <>
             <Header />
                 <div className="min-h-screen flex justify-center items-center flex-wrap mx-2">
-                    <div className="p-1">
-                        <div className="bg-gradient-to-r from-blue-500 to-blue-300 
-                                        w-112 h-72 m-auto rounded-xl shadow-2xl transform 
-                                        hover:scale-110 transition-transform">
-                            <div className="flex justify-center p-1 w-96 h-36">
-                                <Image 
-                                    className="item-center"
-                                    src={require("../../../public/ruby.png")}
-                                    alt="img"
-                                />
-                            </div>
-                            <div className="m-0 p-0 border-t-2"></div>
-                            <div className="mx-2 mt-1 flex">
-                                <p className="text-4xl mx-1">Rails</p>
-                                <GitHub 
-                                    className="mt-1 ml-5"
-                                />
-                            </div>
-                            <div className="mx-2 my-2 p-0">
-                                <p className="mx-1 p-0">Web開発で勉強中</p>
-                            </div>
-                            <span className="mx-4 my-3 pt-1">
-                                <span className="devicon-javascript-plain colored text-4xl"></span>
-                            </span>
-                        </div>
-                    </div>
+                    {worksCardContents.map((contents) => {
+                        return (
+                            <WorksCard contents={contents} />
+                        );
+                    })}
                 </div>
             <Footer />
         </>
