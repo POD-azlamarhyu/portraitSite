@@ -66,7 +66,7 @@ const Hobbys = () => {
                             ):(
                                 <HobbysRightCard contents={contents} key={contents.id}/>
                             )
-                        );
+                        )
                     })}
                 </div>
                 <div className="flex-none w-1/12 m-4">
