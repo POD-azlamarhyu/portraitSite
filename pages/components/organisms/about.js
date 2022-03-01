@@ -1,5 +1,4 @@
 import React from "react";
-import { name } from "../../api/variable";
 import Header from "./header";
 import Footer from "./footer";
 
@@ -13,13 +12,13 @@ const About = () =>{
                         <p className="bg-gradient-to-r from-red-100 to-red-200 border-b-8 border-red-400">名前</p>
                     </div>
                     <div className="mx-10 px-5 my-3 text-center">
-                        <p className="m-1 text-center">{name}</p>
+                        <p className="m-1 text-center">ShellVarng Jiro.</p>
                     </div>
                     <div className="mx-10 px-5 my-3 text-center">
                         <p className="bg-gradient-to-r from-red-100 to-red-200 border-b-8 border-red-400">所属</p>
                     </div>
                     <div className="mx-10 px-5 my-3 text-center">
-                        <p className="m-1 text-center">{"私立理系学生 4回生"}</p>
+                        <p className="m-1 text-center">私立理系学生 4回生</p>
                     </div>
                     <div className="mx-10 px-5 my-3 text-center">
                         <p className="bg-gradient-to-r from-green-100 to-green-200 border-b-8 border-green-400">研究分野</p>
