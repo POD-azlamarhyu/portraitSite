@@ -39,12 +39,12 @@ const WorksCard = (props) =>{
                         />
                     </div>
                     <div className="mx-2 my-2 p-0">
-                        <p className="mx-1 p-0">{props.contents.description}</p>
+                        <p className="mx-1 p-0 text-lg">{props.contents.description}</p>
                     </div>
                     <span className="mx-2 my-4 py-2">
                         {props.contents.useTech.map((tech) => {
                             return(
-                                <span className={`${tech} text-5xl mx-2 my-3`}></span>
+                                <span className={`${tech.mark} text-5xl mx-2 my-3 py-1`} key={tech.id}></span>
                             );
                         })}
                     </span>

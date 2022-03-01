@@ -13,8 +13,15 @@ export const hobbysCardContents = [
         image: require("../../public/travel.png").default,
         title: "Travel　-鉄道旅行-",
         description: [
-            "自分の趣味の中で最も優先度が高く，お金もかかっているものです．鉄道で日本各地に赴いては，自分がその場に生きていたことをカメラで記録しています．",
-            "今，日本はどんどん鉄路が消えていっている状態です．少しでも，皆様に鉄道に興味を持っていただくための活動もしていきたいと考えております．"
+            {
+                id: 0,
+                param:"自分の趣味の中で最も優先度が高く，お金もかかっているものです．鉄道で日本各地に赴いては，自分がその場に生きていたことをカメラで記録しています．",
+                
+            },
+            {
+                id: 1,
+                param: "今，日本はどんどん鉄路が消えていっている状態です．少しでも，皆様に鉄道に興味を持っていただくための活動もしていきたいと考えております．",
+            }
         ],
     },
     {
@@ -22,8 +29,14 @@ export const hobbysCardContents = [
         image: require("../../public/gadget.png").default,
         title: "Gadget　-PC＆ガジェット-",
         description: [
-            "PCやカメラ，スマートフォンなどのガジェット類がとても好きです．パソコンはPCパーツを一つ一つ選んで組んだり，PC周辺機器でより便利で生産性を上げる品がないか日々探してます．",
-            "PCパーツも色々調べたり，旅で使うカメラなども選んでいます．"
+            {
+                id: 0,
+                param: "PCやカメラ，スマートフォンなどのガジェット類がとても好きです．パソコンはPCパーツを一つ一つ選んで組んだり，PC周辺機器でより便利で生産性を上げる品がないか日々探してます．",
+            },
+            {
+                id :1,
+                param: "PCパーツも色々調べたり，旅で使うカメラなども選んでいます．",
+            }
         ],
     },
     {
@@ -31,8 +44,14 @@ export const hobbysCardContents = [
         image: require("../../public/anime.png").default,
         title: "Anime&Comic　-アニメ&漫画-",
         description: [
-            "日本の文化，アニメなどもお金が比較的かからない趣味として楽しんでいます．TVを私は捨てたので，VODサービスオンリーで視聴しています．",
-            "他にも，漫画，ラノベなども嗜んでおります．さらに，二次創作を某小説投稿サイトにて執筆しております．"
+            {
+                id: 0,
+                param: "日本の文化，アニメなどもお金が比較的かからない趣味として楽しんでいます．TVを私は捨てたので，VODサービスオンリーで視聴しています．",
+            },
+            {
+                id: 1,
+                param: "他にも，漫画，ラノベなども嗜んでおります．さらに，二次創作を某小説投稿サイトにて執筆しております．",
+            }
         ],
     },
     {
@@ -40,8 +59,14 @@ export const hobbysCardContents = [
         image: require("../../public/money_kabuken.png").default,
         title: "Assets Management　-資産運用-",
         description: [
-            "今の日本の状況から打開するために，自分の資産の置き方を考えた結果，自身で資産を運用しています．",
-            "中でも，株式に投資し，少しでも資産を増やす努力をすることを当たり前にし続けた結果趣味となりました．"
+            {
+                id: 0,
+                param: "今の日本の状況から打開するために，自分の資産の置き方を考えた結果，自身で資産を運用しています．",
+            },
+            {
+                id: 1,
+                param: "中でも，株式に投資し，少しでも資産を増やす努力をすることを当たり前にし続けた結果趣味となりました．"
+            }
         ]
     }
 ]
@@ -53,10 +78,22 @@ export const worksCardContents = [
         title: "Portrait Site",
         description: "紹介サイト作成したいと思ったのでNextの練習も兼ねて作成しました．",
         useTech: [
-                "devicon-javascript-plain colored",
-                "devicon-nextjs-plain-wordmark colored",
-                "devicon-materialui-plain colored",
-                "devicon-tailwindcss-plain colored"
+            {
+                id:0,
+                mark: "devicon-javascript-plain colored",
+            },
+            {
+                id: 1,
+                mark:"devicon-nextjs-plain-wordmark colored", 
+            },
+            {
+                id:2,
+                mark:"devicon-materialui-plain colored",
+            },
+            {
+                id:3,
+                mark:"devicon-tailwindcss-plain colored",
+            }
         ],
         repository:"https://github.com/POD-azlamarhyu/portraitSite",
     },
@@ -66,10 +103,22 @@ export const worksCardContents = [
         title: "Django Tweet App",
         description: "twitterのクローンをDjangoの練習も兼ねて作成しました．",
         useTech: [
-            "devicon-python-plain colored",
-            "devicon-django-plain-wordmark colored",
-            "devicon-javascript-plain colored",
-            "devicon-bootstrap-plain colored"
+            {
+                id:0,
+                mark: "devicon-python-plain colored",
+            },
+            {
+                id: 1,
+                mark:"devicon-django-plain-wordmark colored",
+            },
+            {
+                id:2,
+                mark:"devicon-javascript-plain colored",
+            },
+            {
+                id:3,
+                mark:"devicon-bootstrap-plain colored"
+            }
         ],
         repository:"https://github.com/POD-azlamarhyu/Twitter_clone_with_Django"
     },
@@ -79,8 +128,14 @@ export const worksCardContents = [
         title: "Stock data scraiping",
         description: "株のデータを収集するために作成しました．",
         useTech: [
-            "devicon-python-plain colored",
-            "devicon-numpy-original colored"
+            {
+                id:0,
+                mark: "devicon-python-plain colored",
+            },
+            {
+                id: 1,
+                mark:"devicon-numpy-original colored"
+            }
         ],
         repository: "https://github.com/POD-azlamarhyu/getStockdata",
     },
@@ -90,7 +145,11 @@ export const worksCardContents = [
         title: "JS Web Watch",
         description: "DOMの理解のため，WEB時計を作成しました．",
         useTech: [
-            "devicon-javascript-plain colored",
+            {
+                id:0,
+                mark: "devicon-javascript-plain colored",
+            }
+            
         ],
         repository: "https://github.com/POD-azlamarhyu/Javascript_light_watch",
     },
@@ -100,8 +159,15 @@ export const worksCardContents = [
         title: "Unity Ball Rolling Game",
         description: "Unityを使った3Ｄコースゲームです．",
         useTech: [
-            "devicon-csharp-plain colored",
-            "devicon-unity-original colored"
+            
+            {
+                id:0,
+                mark: "devicon-csharp-plain colored",
+            },
+            {
+                id: 1,
+                mark:"devicon-unity-original colored"
+            },
         ],
         repository: "https://github.com/POD-azlamarhyu/UnityBallrollgame",
     },

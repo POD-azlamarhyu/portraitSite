@@ -13,7 +13,7 @@ const HobbysLeftCard = (props) => {
                 <div className="mx-5 my-7">
                     {props.contents.description.map((desc) => {
                         return (
-                            <p className="text-xl text-slate-600">{desc}</p>
+                            <p className="text-2xl text-slate-600" key={desc.id}>{desc.param}</p>
                         )
                     })}
                 </div>
@@ -41,8 +41,8 @@ const HobbysRightCard = (props) =>{
                 <div className="mx-5 my-7">
                     {props.contents.description.map((desc) => {
                         return(
-                            <p className="text-xl text-slate-600">{desc}</p>
-                        );
+                            <p className="text-2xl text-slate-600" key={desc.id}>{desc.param}</p>
+                        )
                     })}
                 </div>
             </div>
