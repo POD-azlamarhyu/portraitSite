@@ -1,11 +1,9 @@
 import React from "react";
 import Header from "./header";
 import Footer from "./footer";
-import Image from "next/image";
 import GitHub from "@mui/icons-material/GitHub";
 import "devicon";
 import { worksCardContents } from "../../api/variable";
-import CardMedia from "@material-ui/core/CardMedia";
 
 
 
