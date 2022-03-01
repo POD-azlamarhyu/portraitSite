@@ -10,7 +10,7 @@ export const url = {
 export const hobbysCardContents = [
     {
         id: 0,
-        image: require("../../public/travel.png").default,
+        image: require("../../public/travel.png"),
         title: "Travel　-鉄道旅行-",
         description: [
             {
@@ -26,7 +26,7 @@ export const hobbysCardContents = [
     },
     {
         id: 1,
-        image: require("../../public/gadget.png").default,
+        image: require("../../public/gadget.png"),
         title: "Gadget　-PC＆ガジェット-",
         description: [
             {
@@ -41,7 +41,7 @@ export const hobbysCardContents = [
     },
     {
         id: 2,
-        image: require("../../public/anime.png").default,
+        image: require("../../public/anime.png"),
         title: "Anime&Comic　-アニメ&漫画-",
         description: [
             {
@@ -56,7 +56,7 @@ export const hobbysCardContents = [
     },
     {
         id: 3,
-        image: require("../../public/money_kabuken.png").default,
+        image: require("../../public/money_kabuken.png"),
         title: "Assets Management　-資産運用-",
         description: [
             {
@@ -74,7 +74,7 @@ export const hobbysCardContents = [
 export const worksCardContents = [
     {
         id: 0,
-        image: require("../../public/portrait_e.png").default,
+        image: require("../../public/portrait_e.png"),
         title: "Portrait Site",
         description: "紹介サイト作成したいと思ったのでNextの練習も兼ねて作成しました．",
         useTech: [
@@ -99,7 +99,7 @@ export const worksCardContents = [
     },
     {
         id: 1,
-        image: require("../../public/toweet_e.png").default,
+        image: require("../../public/toweet_e.png"),
         title: "Django Tweet App",
         description: "twitterのクローンをDjangoの練習も兼ねて作成しました．",
         useTech: [
@@ -141,7 +141,7 @@ export const worksCardContents = [
     },
     {
         id: 3,
-        image: require("../../public/watch_e.png").default,
+        image: require("../../public/watch_e.png"),
         title: "JS Web Watch",
         description: "DOMの理解のため，WEB時計を作成しました．",
         useTech: [
@@ -155,7 +155,7 @@ export const worksCardContents = [
     },
     {
         id: 4,
-        image: require("../../public/unity_e.png").default,
+        image: require("../../public/unity_e.png"),
         title: "Unity Ball Rolling Game",
         description: "Unityを使った3Ｄコースゲームです．",
         useTech: [
