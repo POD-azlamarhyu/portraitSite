@@ -43,7 +43,7 @@ const Skills = () =>{
                 <div className="min-h-screen flex flex-wrap justify-center items-center mx-6 my-5">
                     {skillCardContents.map((contents)=> {
                         return (
-                            <SkillCard key={contents.id} contents = {contents} />
+                            <SkillCard contents = {contents} key={contents.id}/>
                         );
                     })}
                 </div>

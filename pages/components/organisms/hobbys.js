@@ -6,7 +6,7 @@ import { hobbysCardContents } from "../../api/variable";
 
 const HobbysLeftCard = (props) => {
     return (
-        <div key={props.contents.id.toString()} className="flex w-full h-94 bg-slate-300 mx-2 my-10 rounded-xl transform 
+        <div className="flex w-full h-94 bg-slate-300 mx-2 my-10 rounded-xl transform 
                             hover:scale-110 transition-transform">
             <div className="w-7/12">
                 <h2 className="mx-5 my-5 text-4xl font-medium">{props.contents.title}</h2>
@@ -29,7 +29,7 @@ const HobbysLeftCard = (props) => {
 
 const HobbysRightCard = (props) =>{
     return (
-        <div key={props.contents.id.toString()} className="flex w-full h-94 bg-slate-300 mx-2 my-10 rounded-xl transform 
+        <div className="flex w-full h-94 bg-slate-300 mx-2 my-10 rounded-xl transform 
                             hover:scale-110 transition-transform">
             <div className="w-5/12">
                 <div className="mx-3 my-3 p-2 flex justify-center items-center">
@@ -62,9 +62,9 @@ const Hobbys = () => {
                     {hobbysCardContents.map((contents)=>{
                         return(
                             contents.id % 2 === 0 ? (
-                                <HobbysLeftCard contents={contents} />
+                                <HobbysLeftCard contents={contents} key={contents.id}/>
                             ):(
-                                <HobbysRightCard contents={contents} />
+                                <HobbysRightCard contents={contents} key={contents.id}/>
                             )
                         );
                     })}
