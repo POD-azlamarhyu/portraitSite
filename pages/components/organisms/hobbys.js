@@ -23,7 +23,7 @@ const HobbysLeftCard = (props) => {
             </div>
         </div>
     );
-};
+}
 
 const HobbysRightCard = (props) =>{
     return (
@@ -46,7 +46,7 @@ const HobbysRightCard = (props) =>{
             </div>
         </div>
     );
-};
+}
 
 const Hobbys = () => {
 
