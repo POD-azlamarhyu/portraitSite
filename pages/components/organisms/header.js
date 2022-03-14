@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { webTitle } from "../../api/variable";
+const webTitle = "Jiro's Portrait Site";
 
 const Navbar = () =>{
     return(

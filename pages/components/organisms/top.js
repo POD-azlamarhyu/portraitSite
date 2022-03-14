@@ -2,8 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Header from './header';
 import Footer from './footer';
-import {topImage} from '../../api/variable';
-
+const topImage = require("../../../public/portrait_top.png").default;
 
 const Top = () => {
     return(
