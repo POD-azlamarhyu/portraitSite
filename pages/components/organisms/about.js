@@ -36,9 +36,9 @@ const About = () =>{
                         <p className="bg-gradient-to-r from-blue-100 to-blue-200 border-b-8 border-blue-400">実績</p>
                     </div>
                     <div className="mx-10 px-5 my-3 text-center">
-                        <p className="text-center m-1">Interaction2021　投稿・再録</p>
-                        <p className="text-center m-1">DICOMO2021　投稿・再録</p>
-                        <p className="text-center m-1">Interaction2022　投稿・再録</p>
+                        <p className="text-center m-1">Interaction2021　投稿・採録</p>
+                        <p className="text-center m-1">DICOMO2021　投稿・採録</p>
+                        <p className="text-center m-1">Interaction2022　投稿・採録</p>
                     </div>
                     <div className="mx-10 px-5 my-3 text-center">
                         <p className="bg-gradient-to-r from-blue-100 to-blue-200 border-b-8 border-blue-400">実務</p>

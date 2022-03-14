@@ -1,10 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import { webTitle } from "../../api/variable";
 
-export const webTitle = "ShellVarng's Portrait Site";
-
-
-export const Navbar = () =>{
+const Navbar = () =>{
     return(
         <div className="pt-3">
             <ul className="flex justify-end mt-2 h-12">
@@ -39,8 +37,8 @@ export const Navbar = () =>{
                 </li>
             </ul>
         </div>
-    );
-}
+    )
+};
 
 const Header = () => {
     return (

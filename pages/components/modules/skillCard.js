@@ -5,7 +5,7 @@ import Rating from '@mui/material/Rating';
 const SkillCard = (props) =>{
     return(
         <div className="p-4">
-            <div className="bg-gradient-to-r from-blue-500 to-blue-200 w-132 h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform">
+            <div className={props.contents.color}>
                 <div className="flex justify-center items-center mx-3 my-3">
                     <span className={`${props.contents.image} text-9xl p-1`}></span>
                 </div>
