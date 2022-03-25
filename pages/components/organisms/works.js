@@ -103,6 +103,31 @@ const worksCardContents = [
         ],
         repository: "https://github.com/POD-azlamarhyu/UnityBallrollgame",
     },
+    {
+        id: 5,
+        image: require("../../../public/portrait_e.png").default,
+        title: "Portrait Site TypeScript ver.",
+        description: "上記自己紹介サイトのTypeScript版です. ",
+        useTech: [
+            {
+                id:0,
+                mark: "devicon-typescript-plain colored",
+            },
+            {
+                id: 1,
+                mark:"devicon-nextjs-plain-wordmark colored", 
+            },
+            {
+                id:2,
+                mark:"devicon-materialui-plain colored",
+            },
+            {
+                id:3,
+                mark:"devicon-tailwindcss-plain colored",
+            }
+        ],
+        repository:"https://github.com/POD-azlamarhyu/portraitSite_ts",
+    },
 ];
 
 const WorksCard = (props) =>{

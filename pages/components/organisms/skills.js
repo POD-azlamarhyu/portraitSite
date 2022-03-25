@@ -5,13 +5,13 @@ import Footer from "./footer";
 import "devicon";
 import Rating from '@mui/material/Rating';
 
-const skillCardCol = {
-    red:`bg-gradient-to-r from-fuchsia-500 to-fuchsia-200 w-132 h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
-    blue:`bg-gradient-to-r from-blue-500 to-blue-200 w-132 h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
-    indigo:`bg-gradient-to-r from-indigo-500 to-indigo-200 w-132 h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
-    green:`bg-gradient-to-r from-gray-500 to-gray-200 w-132 h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`
-}
 
+const skillCardCol = {
+    red:`bg-gradient-to-r from-fuchsia-500 to-fuchsia-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
+    blue:`bg-gradient-to-r from-blue-500 to-blue-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
+    indigo:`bg-gradient-to-r from-indigo-500 to-indigo-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
+    green:`bg-gradient-to-r from-gray-500 to-gray-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`
+}
 const skillCardContents = [
     {
         id: 0,
@@ -209,7 +209,7 @@ const Skills = () =>{
         <>
             <Header />
             <div className="flex justify-center">
-                <div className="min-h-screen flex flex-wrap justify-center items-center mx-6 my-5">
+                <div className="min-h-screen flex flex-wrap justify-center items-center mx-3 my-3 md:mx-6 md:my-5">
                     {skillCardContents.map((contents)=> {
                         return (
                             <SkillCard contents = {contents} key={contents.id}/>

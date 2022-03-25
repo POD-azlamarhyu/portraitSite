@@ -4,35 +4,35 @@ const webTitle = "Jiro's Portrait Site";
 
 const Navbar = () =>{
     return(
-        <div className="pt-3">
-            <ul className="flex justify-end mt-2 h-12">
+        <div className="py-2">
+            <ul className="flex flex-col items-center justify-center sm:flex-row md:justify-end sm:mt-2 sm:h-12">
                 <li className="text-white px-6 py-2 w-1/6 text-center">
                     <Link      
                         href={"/components/organisms/top"}
                     >
-                        <a className="align-middle block text-2xl">Top</a>
+                        <a className="align-middle block sm:text-xl md:text-2xl ">Top</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/6 text-center">
                     <Link
                         href={"/components/organisms/about"}
                     >
-                        <a className="align-middle block text-2xl">About</a>
+                        <a className="align-middle block sm:text-xl md:text-2xl">About</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/6 text-center">
                     <Link href={"/components/organisms/skills"}>
-                        <a className="align-middle block text-2xl">Skills</a>
+                        <a className="align-middle block sm:text-xl md:text-2xl">Skills</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/6 text-center">
                     <Link href={"/components/organisms/works"}>
-                        <a className="align-middle block text-2xl">Works</a>
+                        <a className="align-middle block sm:text-xl md:text-2xl">Works</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/6 text-center">
                     <Link href={"/components/organisms/hobbys"}>
-                        <a className="align-middle block text-2xl">Hobbys</a>
+                        <a className="align-middle block sm:text-xl md:text-2xl">Hobbys</a>
                     </Link>
                 </li>
             </ul>
@@ -43,8 +43,8 @@ const Navbar = () =>{
 const Header = () => {
     return (
         <>
-        <header className="bg-gray-700 h-1/6 pt-4 pb-4 pl-7">
-            <h1 className="text-4xl font-bold text-white m-2 p-0">
+        <header className="bg-gray-700 h-1/6 py-3 sm:pt-4 sm:pb-4">
+            <h1 className="text-4xl font-bold text-white text-center sm:text-left sm:my-2 sm:mx-4">
                 {webTitle}
             </h1>
             <Navbar/>
