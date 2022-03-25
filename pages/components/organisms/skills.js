@@ -7,10 +7,10 @@ import Rating from '@mui/material/Rating';
 
 
 const skillCardCol = {
-    red:`bg-gradient-to-r from-fuchsia-500 to-fuchsia-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
-    blue:`bg-gradient-to-r from-blue-500 to-blue-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
-    indigo:`bg-gradient-to-r from-indigo-500 to-indigo-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
-    green:`bg-gradient-to-r from-gray-500 to-gray-200 md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`
+    red:`bg-gradient-to-r from-fuchsia-500 to-fuchsia-200 w-full md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
+    blue:`bg-gradient-to-r from-blue-500 to-blue-200 md:w-132 w-full md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
+    indigo:`bg-gradient-to-r from-indigo-500 to-indigo-200 w-full md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`,
+    green:`bg-gradient-to-r from-gray-500 to-gray-200 w-full md:w-132 md:h-80 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform`
 }
 const skillCardContents = [
     {

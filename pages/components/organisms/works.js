@@ -139,8 +139,8 @@ const WorksCard = (props) =>{
 
     return (
         <div className="p-5">
-            <div className="bg-gradient-to-r from-blue-500 to-blue-300 
-                            w-140 h-100 m-auto rounded-xl shadow-2xl transform 
+            <div className="bg-gradient-to-r from-blue-500 to-blue-300 w-full
+                            md:w-148 h-100 m-auto rounded-xl shadow-2xl transform 
                             hover:scale-110 transition-transform">
                     {props.contents.image.src ? (
                         <div className="flex justify-center m-1 p-3 h-64">
@@ -181,7 +181,7 @@ const Works = () => {
     return(
         <>
             <Header />
-                <div className="min-h-screen flex justify-center items-center flex-wrap mx-2">
+                <div className="min-h-screen flex justify-center items-center flex-wrap md:mx-3 mx-1">
                     {worksCardContents.map((contents) => {
                         return (
                             <WorksCard contents={contents} key={contents.id}/>
