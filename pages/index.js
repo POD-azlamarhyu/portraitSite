@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import Top from './components/organisms/top';
+import "devicon";
 
 
 const Home = () => {
