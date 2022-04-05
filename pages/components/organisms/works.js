@@ -101,7 +101,7 @@ const worksCardContents = [
                 mark:"devicon-unity-original colored"
             },
         ],
-        repository: "https://github.com/POD-azlamarhyu/UnityBallrollgame",
+        repository: "https://github.com/POD-azlamarhyu/unity_tutorial_scrollegame",
     },
     {
         id: 5,
@@ -154,9 +154,10 @@ const WorksCard = (props) =>{
                 <div className="m-0 p-0 border-t-2"></div>
                 <div className="m-3">
                     <div className="mx-2 my-1 flex">
-                        <p className="mx-1 text-4xl">{props.contents.title}</p>
+                        <p className="mx-1 text-2xl sm:text-4xl">{props.contents.title}</p>
                         <GitHub
-                            className="m-2 p-0"
+                            className="my-1 mx-4 p-0 cursor-pointer"
+                            sx={{fontSize:33}}
                             onClick={()=> onClickGit(props.contents.repository)}
                         />
                     </div>
@@ -166,7 +167,7 @@ const WorksCard = (props) =>{
                     <span className="mx-2 my-4 py-2">
                         {props.contents.useTech.map((tech) => {
                             return(
-                                <span className={`${tech.mark} text-5xl mx-2 my-3 py-1`} key={tech.id}></span>
+                                <i className={tech.mark+" text-3xl sm:text-5xl mx-2 my-2 p-1"} key={tech.id}></i>
                             );
                         })}
                     </span>
