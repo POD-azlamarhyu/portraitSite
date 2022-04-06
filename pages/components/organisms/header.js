@@ -9,6 +9,7 @@ const Navbar = () =>{
                 <li className="text-white px-6 py-2 w-1/6 text-center">
                     <Link      
                         href={"/components/organisms/top"}
+                        as="/top"
                     >
                         <a className="align-middle block sm:text-xl md:text-2xl ">Top</a>
                     </Link>
@@ -16,22 +17,32 @@ const Navbar = () =>{
                 <li className="text-white px-6 py-2 w-1/6 text-center">
                     <Link
                         href={"/components/organisms/about"}
+                        as="/about"
                     >
                         <a className="align-middle block sm:text-xl md:text-2xl">About</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/6 text-center">
-                    <Link href={"/components/organisms/skills"}>
+                    <Link 
+                        href={"/components/organisms/skills"}
+                        as="/skills"    
+                    >
                         <a className="align-middle block sm:text-xl md:text-2xl">Skills</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/6 text-center">
-                    <Link href={"/components/organisms/works"}>
+                    <Link 
+                        href={"/components/organisms/works"}
+                        as="/works"
+                        >
                         <a className="align-middle block sm:text-xl md:text-2xl">Works</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/6 text-center">
-                    <Link href={"/components/organisms/hobbys"}>
+                    <Link 
+                        href={"/components/organisms/hobbys"}
+                        as="/hobbys"
+                    >
                         <a className="align-middle block sm:text-xl md:text-2xl">Hobbys</a>
                     </Link>
                 </li>
