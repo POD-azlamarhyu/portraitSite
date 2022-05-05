@@ -3,6 +3,7 @@ import Header from "./header";
 import Footer from "./footer";
 import GitHub from "@mui/icons-material/GitHub";
 import "devicon";
+const NoImage = require("../../../public/no_image_logo.png").default;
 
 const worksCardContents = [
     {
@@ -148,8 +149,8 @@ const WorksCard = (props) =>{
                             <img src={props.contents.image.src} alt={`img${props.contents.title}`}/>
                         </div>
                     ):(
-                        <div className="flex justify-center items-center m-1 p-2 h-64">
-                            <p className="text-6xl text-gray-500">No Image</p>
+                        <div className="flex justify-center m-1 p-3 h-64">
+                            <img src={NoImage.src} alt="img"/>
                         </div>
                     )}
                 <div className="m-0 p-0 border-t-2"></div>
