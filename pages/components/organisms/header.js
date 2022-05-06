@@ -6,7 +6,7 @@ const Navbar = () =>{
     return(
         <div className="py-2">
             <ul className="flex flex-col items-center justify-center sm:flex-row md:justify-end sm:mt-2 sm:h-12">
-                <li className="text-white px-6 py-2 w-1/6 text-center">
+                <li className="text-white px-6 py-2 w-1/6 text-center hover:opacity-50 hover:bg-gray-400">
                     <Link      
                         href={"/components/organisms/top"}
                         as="/top"
@@ -14,7 +14,7 @@ const Navbar = () =>{
                         <a className="align-middle block sm:text-xl md:text-2xl ">Top</a>
                     </Link>
                 </li>
-                <li className="text-white px-6 py-2 w-1/6 text-center">
+                <li className="text-white px-6 py-2 w-1/6 text-center hover:opacity-50 hover:bg-gray-400">
                     <Link
                         href={"/components/organisms/about"}
                         as="/about"
@@ -22,7 +22,7 @@ const Navbar = () =>{
                         <a className="align-middle block sm:text-xl md:text-2xl">About</a>
                     </Link>
                 </li>
-                <li className="text-white px-6 py-2 w-1/6 text-center">
+                <li className="text-white px-6 py-2 w-1/6 text-center hover:opacity-50 hover:bg-gray-400">
                     <Link 
                         href={"/components/organisms/skills"}
                         as="/skills"    
@@ -30,7 +30,7 @@ const Navbar = () =>{
                         <a className="align-middle block sm:text-xl md:text-2xl">Skills</a>
                     </Link>
                 </li>
-                <li className="text-white px-6 py-2 w-1/6 text-center">
+                <li className="text-white px-6 py-2 w-1/6 text-center hover:opacity-50 hover:bg-gray-400">
                     <Link 
                         href={"/components/organisms/works"}
                         as="/works"
@@ -38,7 +38,7 @@ const Navbar = () =>{
                         <a className="align-middle block sm:text-xl md:text-2xl">Works</a>
                     </Link>
                 </li>
-                <li className="text-white px-6 py-2 w-1/6 text-center">
+                <li className="text-white px-6 py-2 w-1/6 text-center hover:opacity-50 hover:bg-gray-400">
                     <Link 
                         href={"/components/organisms/hobbys"}
                         as="/hobbys"
