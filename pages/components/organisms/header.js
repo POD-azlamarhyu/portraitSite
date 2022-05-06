@@ -9,7 +9,7 @@ const Navbar = () =>{
                 <li className="text-white px-6 py-2 w-1/2 text-center hover:opacity-50 hover:bg-gray-400 sm:w-1/4 md:1/5 lg:w-1/6">
                     <Link      
                         href={"/components/organisms/top"}
-                        as="/top"
+                        as="/"
                     >
                         <a className="align-middle block sm:text-xl md:text-2xl ">Top</a>
                     </Link>
