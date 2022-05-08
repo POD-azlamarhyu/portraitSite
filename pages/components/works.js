@@ -3,12 +3,12 @@ import Header from "./header";
 import Footer from "./footer";
 import GitHub from "@mui/icons-material/GitHub";
 import "devicon";
-const NoImage = require("../../../public/no_image_logo.png").default;
+const NoImage = require("../../public/no_image_logo.png").default;
 
 const worksCardContents = [
     {
         id: 0,
-        image: require("../../../public/portrait_e.png").default,
+        image: require("../../public/portrait_e.png").default,
         title: "Portrait Site",
         description: "紹介サイト作成したいと思ったのでNextの練習も兼ねて作成しました．",
         useTech: [
@@ -33,7 +33,7 @@ const worksCardContents = [
     },
     {
         id: 1,
-        image: require("../../../public/toweet_e.png").default,
+        image: require("../../public/toweet_e.png").default,
         title: "Django Tweet App",
         description: "twitterのクローンをDjangoの練習も兼ねて作成しました．",
         useTech: [
@@ -75,7 +75,7 @@ const worksCardContents = [
     },
     {
         id: 3,
-        image: require("../../../public/watch_e.png").default,
+        image: require("../../public/watch_e.png").default,
         title: "JS Web Watch",
         description: "DOMの理解のため，WEB時計を作成しました．",
         useTech: [
@@ -89,7 +89,7 @@ const worksCardContents = [
     },
     {
         id: 4,
-        image: require("../../../public/unity_e.png").default,
+        image: require("../../public/unity_e.png").default,
         title: "Unity Ball Rolling Game",
         description: "Unityを使った3Ｄコースゲームです．",
         useTech: [
@@ -107,7 +107,7 @@ const worksCardContents = [
     },
     {
         id: 5,
-        image: require("../../../public/portrait_e.png").default,
+        image: require("../../public/portrait_e.png").default,
         title: "Portrait Site TypeScript ver.",
         description: "上記自己紹介サイトのTypeScript版です. ",
         useTech: [

@@ -3,7 +3,7 @@ import CopyrightIcon from '@mui/icons-material/Copyright';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import {url} from '../../api/variable';
+import {url} from '../api/variable';
 
 export const copyright = "shell varng 2022";
 

@@ -8,7 +8,7 @@ const Navbar = () =>{
             <ul className="flex flex-col items-center justify-center sm:flex-row md:justify-end sm:mt-2 sm:h-12">
                 <li className="text-white px-6 py-2 w-1/2 text-center sm:w-1/4 md:1/5 lg:w-1/6">
                     <Link      
-                        href={"/components/organisms/top"}
+                        href={"/components/top"}
                         as="/"
                     >
                         <a className="p-3 align-middle block sm:text-xl md:text-2xl hover:opacity-50 hover:bg-gray-400">Top</a>
@@ -16,32 +16,28 @@ const Navbar = () =>{
                 </li>
                 <li className="text-white px-6 py-2 w-1/2 text-center sm:w-1/4 md:1/5 lg:w-1/6">
                     <Link
-                        href={"/components/organisms/about"}
-                        as="/about"
+                        href={"/components/about"}
                     >
                         <a className="p-3 align-middle block sm:text-xl md:text-2xl hover:opacity-50 hover:bg-gray-400">About</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/2 text-center sm:w-1/4 md:1/5 lg:w-1/6">
                     <Link 
-                        href={"/components/organisms/skills"}
-                        as="/skills"    
+                        href={"/components/skills"}  
                     >
                         <a className="p-3 align-middle block sm:text-xl md:text-2xl hover:opacity-50 hover:bg-gray-400">Skills</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/2 text-center sm:w-1/4 md:1/5 lg:w-1/6">
                     <Link 
-                        href={"/components/organisms/works"}
-                        as="/works"
+                        href={"/components/works"}
                         >
                         <a className="p-3 align-middle block sm:text-xl md:text-2xl hover:opacity-50 hover:bg-gray-400">Works</a>
                     </Link>
                 </li>
                 <li className="text-white px-6 py-2 w-1/2 text-center sm:w-1/4 md:1/5 lg:w-1/6">
                     <Link 
-                        href={"/components/organisms/hobbys"}
-                        as="/hobbys"
+                        href={"/components/hobbys"}
                     >
                         <a className="p-3 align-middle block sm:text-xl md:text-2xl hover:opacity-50 hover:bg-gray-400">Hobbys</a>
                     </Link>

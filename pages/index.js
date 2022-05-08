@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import Top from './components/organisms/top';
+import Top from './components/top';
 import "devicon";
 
 

@@ -1,12 +1,12 @@
 import React from "react";
 import Header from './header';
 import Footer from './footer';
-const NoImage = require("../../../public/no_image_logo.png").default;
+const NoImage = require("../../public/no_image_logo.png").default;
 
 const hobbysCardContents = [
     {
         id: 0,
-        image: require("../../../public/travel.png").default,
+        image: require("../../public/travel.png").default,
         title: "Travel　-鉄道旅行-",
         description: [
             {
@@ -22,7 +22,7 @@ const hobbysCardContents = [
     },
     {
         id: 1,
-        image: require("../../../public/gadget.png").default,
+        image: require("../../public/gadget.png").default,
         title: "Gadget　-PC＆ガジェット-",
         description: [
             {
@@ -37,7 +37,7 @@ const hobbysCardContents = [
     },
     {
         id: 2,
-        image: require("../../../public/anime.png").default,
+        image: require("../../public/anime.png").default,
         title: "Anime&Comic　-アニメ&漫画-",
         description: [
             {
@@ -52,7 +52,7 @@ const hobbysCardContents = [
     },
     {
         id: 3,
-        image: require("../../../public/money_kabuken.png").default,
+        image: require("../../public/money_kabuken.png").default,
         title: "Assets Management　-資産運用-",
         description: [
             {
@@ -67,7 +67,7 @@ const hobbysCardContents = [
     },
     {
         id: 4,
-        image: require("../../../public/blogimg.png").default,
+        image: require("../../public/blogimg.png").default,
         title: "発信",
         description: [
             {
