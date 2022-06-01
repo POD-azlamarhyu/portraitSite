@@ -33,6 +33,49 @@ const worksCardContents = [
     },
     {
         id: 1,
+        image: require("../../public/twitter_clone.png").default,
+        title: "Twitter Clone SPA DjangoRF+NextJS+PostgreSQL",
+        description: "TwitterのクローンをDjangoRFとNextJSを用いてSPAとして作成．",
+        useTech: [
+            {
+                id:0,
+                mark: "devicon-python-plain colored",
+            },
+            {
+                id: 1,
+                mark:"devicon-django-plain-wordmark colored",
+            },
+            {
+                id:2,
+                mark:"devicon-nextjs-original-wordmark colored",
+            },
+            {
+                id:3,
+                mark:"devicon-typescript-plain colored"
+            },
+            {
+                id:4,
+                mark:"devicon-materialui-plain colored"
+            },
+            {
+                id:5,
+                mark:"devicon-tailwindcss-plain colored",
+            },
+            {
+                id:6,
+                mark:'devicon-docker-plain colored',
+            },
+            {
+                id:7,
+                mark:'devicon-postgresql-plain colored',
+            }
+        ],
+        repository:"https://github.com/POD-azlamarhyu/Twitter_clone_SPA"
+    },
+    {
+        
+
+        id: 2,
         image: require("../../public/toweet_e.png").default,
         title: "Django Tweet App",
         description: "twitterのクローンをDjangoの練習も兼ねて作成しました．",
@@ -57,7 +100,7 @@ const worksCardContents = [
         repository:"https://github.com/POD-azlamarhyu/Twitter_clone_with_Django"
     },
     {
-        id: 2,
+        id: 3,
         image:'',
         title: "Stock data scraiping",
         description: "株のデータを収集するために作成しました．",
@@ -74,7 +117,7 @@ const worksCardContents = [
         repository: "https://github.com/POD-azlamarhyu/getStockdata",
     },
     {
-        id: 3,
+        id: 4,
         image: require("../../public/watch_e.png").default,
         title: "JS Web Watch",
         description: "DOMの理解のため，WEB時計を作成しました．",
@@ -88,7 +131,7 @@ const worksCardContents = [
         repository: "https://github.com/POD-azlamarhyu/Javascript_light_watch",
     },
     {
-        id: 4,
+        id: 5,
         image: require("../../public/unity_e.png").default,
         title: "Unity Ball Rolling Game",
         description: "Unityを使った3Ｄコースゲームです．",
@@ -106,7 +149,7 @@ const worksCardContents = [
         repository: "https://github.com/POD-azlamarhyu/unity_tutorial_scrollegame",
     },
     {
-        id: 5,
+        id: 6,
         image: require("../../public/portrait_e.png").default,
         title: "Portrait Site TypeScript ver.",
         description: "上記自己紹介サイトのTypeScript版です. ",
@@ -130,6 +173,7 @@ const worksCardContents = [
         ],
         repository:"https://github.com/POD-azlamarhyu/portraitSite_ts",
     },
+
 ];
 
 const WorksCard = (props) =>{
@@ -142,7 +186,7 @@ const WorksCard = (props) =>{
     return (
         <div className="p-5">
             <div className="bg-gradient-to-r from-blue-500 to-blue-300 w-full
-                            md:w-148 h-100 m-auto rounded-xl shadow-2xl transform 
+                            md:w-156 m-auto rounded-xl shadow-2xl transform 
                             hover:scale-110 transition-transform">
                     {props.contents.image.src ? (
                         <div className="flex justify-center m-1 p-3 h-64">
@@ -166,7 +210,7 @@ const WorksCard = (props) =>{
                     <div className="mx-2 my-2 p-0">
                         <p className="mx-1 p-0 text-lg">{props.contents.description}</p>
                     </div>
-                    <span className="mx-2 my-4 py-2">
+                    <span className="mx-2 my-4 py-2 flex flex-wrap">
                         {props.contents.useTech.map((tech) => {
                             return(
                                 <i className={tech.mark+" text-3xl sm:text-5xl mx-2 my-2 p-1"} key={tech.id}></i>
