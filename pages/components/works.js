@@ -34,8 +34,8 @@ const worksCardContents = [
     {
         id: 1,
         image: require("../../public/twitter_clone.png").default,
-        title: "Twitter Clone SPA DjangoRF+NextJS+PostgreSQL",
-        description: "TwitterのクローンをDjangoRFとNextJSを用いてSPAとして作成．",
+        title: "Twitter Clone SPA",
+        description: "TwitterのクローンをDjangoRF, PostgreSQL, NextJS, Dockerを用いてSPAとして作成．",
         useTech: [
             {
                 id:0,
@@ -71,6 +71,31 @@ const worksCardContents = [
             }
         ],
         repository:"https://github.com/POD-azlamarhyu/Twitter_clone_SPA"
+    },
+    {
+        id: 6,
+        image: require("../../public/portrait_e.png").default,
+        title: "Portrait Site TypeScript ver.",
+        description: "上記自己紹介サイトのTypeScript版です. ",
+        useTech: [
+            {
+                id:0,
+                mark: "devicon-typescript-plain colored",
+            },
+            {
+                id: 1,
+                mark:"devicon-nextjs-plain-wordmark colored", 
+            },
+            {
+                id:2,
+                mark:"devicon-materialui-plain colored",
+            },
+            {
+                id:3,
+                mark:"devicon-tailwindcss-plain colored",
+            }
+        ],
+        repository:"https://github.com/POD-azlamarhyu/portraitSite_ts",
     },
     {
         
@@ -148,31 +173,7 @@ const worksCardContents = [
         ],
         repository: "https://github.com/POD-azlamarhyu/unity_tutorial_scrollegame",
     },
-    {
-        id: 6,
-        image: require("../../public/portrait_e.png").default,
-        title: "Portrait Site TypeScript ver.",
-        description: "上記自己紹介サイトのTypeScript版です. ",
-        useTech: [
-            {
-                id:0,
-                mark: "devicon-typescript-plain colored",
-            },
-            {
-                id: 1,
-                mark:"devicon-nextjs-plain-wordmark colored", 
-            },
-            {
-                id:2,
-                mark:"devicon-materialui-plain colored",
-            },
-            {
-                id:3,
-                mark:"devicon-tailwindcss-plain colored",
-            }
-        ],
-        repository:"https://github.com/POD-azlamarhyu/portraitSite_ts",
-    },
+    
 
 ];
 
@@ -185,15 +186,13 @@ const WorksCard = (props) =>{
 
     return (
         <div className="p-5">
-            <div className="bg-gradient-to-r from-blue-500 to-blue-300 w-full
-                            md:w-156 m-auto rounded-xl shadow-2xl transform 
-                            hover:scale-110 transition-transform">
+            <div className="bg-gradient-to-r from-purple-500 to-purple-200 w-11/12 md:w-148 md:h-120 m-auto rounded-xl shadow-2xl transform hover:scale-110 transition-transform">
                     {props.contents.image.src ? (
-                        <div className="flex justify-center m-1 p-3 h-64">
+                        <div className="flex justify-center m-1 p-3 h-60">
                             <img src={props.contents.image.src} alt={`img${props.contents.title}`}/>
                         </div>
                     ):(
-                        <div className="flex justify-center m-1 p-3 h-64">
+                        <div className="flex justify-center m-1 p-3 h-60">
                             <img src={NoImage.src} alt="img"/>
                         </div>
                     )}
@@ -210,10 +209,10 @@ const WorksCard = (props) =>{
                     <div className="mx-2 my-2 p-0">
                         <p className="mx-1 p-0 text-lg">{props.contents.description}</p>
                     </div>
-                    <span className="mx-2 my-4 py-2 flex flex-wrap">
+                    <span className="mx-2 my-3 py-2 flex flex-wrap">
                         {props.contents.useTech.map((tech) => {
                             return(
-                                <i className={tech.mark+" text-3xl sm:text-5xl mx-2 my-2 p-1"} key={tech.id}></i>
+                                <i className={tech.mark+" text-3xl sm:text-5xl mx-1 my-1 p-1"} key={tech.id}></i>
                             );
                         })}
                     </span>
