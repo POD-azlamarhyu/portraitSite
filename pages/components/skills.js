@@ -62,23 +62,6 @@ const skillCardContents = [
         color: skillCardCol.blue,
     },
     {
-        id:6,
-        image: "devicon-ruby-plain colored",
-        title: "Ruby",
-        stars: 3,
-        description: "大学の授業のほか，サーバサイド言語の習得のため学んでいます．",
-        color: skillCardCol.blue,
-    },
-
-    {
-        id: 7,
-        image: "devicon-android-plain colored",
-        title: "Android",
-        stars: 2,
-        description: "研究のほか，個人開発でアプリの方面も触っています．",
-        color: skillCardCol.green,
-    },
-    {
         id: 8,
         image: "devicon-react-original colored",
         title: "React JS",
@@ -103,13 +86,33 @@ const skillCardContents = [
         color: skillCardCol.green,
     },
     {
-        id:11,
-        image: "devicon-rails-plain colored",
-        title: "Ruby on Rails",
-        stars: 1,
-        description: "日本はRailsが実務で使われていることが多いので勉強しています．",
-        color :skillCardCol.green,
+        id: 7,
+        image: "devicon-android-plain colored",
+        title: "Android",
+        stars: 2,
+        description: "研究のほか，個人開発でアプリの方面も触っています．",
+        color: skillCardCol.green,
     },
+    {
+        id:6,
+        image: "devicon-ruby-plain colored",
+        title: "Ruby",
+        stars: 3,
+        description: "大学の授業のほか，サーバサイド言語の習得のため学んでいます．",
+        color: skillCardCol.blue,
+    },
+
+
+
+    {
+        id:20,
+        image: "devicon-unrealengine-original colored",
+        title: "Unreal Engine 5",
+        stars: 2,
+        description: "メタバースの開発やゲームの他，建築等で使用しています．",
+        color: skillCardCol.green,
+    },
+
     {
         id: 12,
         image: "devicon-unity-original colored",
@@ -159,6 +162,14 @@ const skillCardContents = [
         color: skillCardCol.red,
     },
     {
+        id:11,
+        image: "devicon-rails-plain colored",
+        title: "Ruby on Rails",
+        stars: 1,
+        description: "日本はRailsが実務で使われていることが多いので勉強しています．",
+        color :skillCardCol.green,
+    },
+    {
         id:18,
         image: "devicon-bulma-plain colored",
         title: "Bulma",
@@ -174,6 +185,7 @@ const skillCardContents = [
         description: "CSSをより効率的に書くために使ってます．",
         color: skillCardCol.red,
     },
+
 ];
 
 const SkillCard = (props) =>{

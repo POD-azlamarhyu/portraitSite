@@ -24,7 +24,7 @@ const About = () =>{
                         <p className="md:m-auto bg-gradient-to-r from-green-100 to-green-200 border-b-8 border-green-400 text-xl md:text-2xl py-5">研究分野</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
-                        <p className="m-1 text-center text-xl md:text-2xl py-5">インタラクション・画像認識・IoT</p>
+                        <p className="m-1 text-center text-xl md:text-2xl py-5">インタラクション・画像認識・IoT・アクセシビリティ</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-green-100 to-green-200 border-b-8 border-green-400 text-xl md:text-2xl py-5">進路</p>
@@ -39,13 +39,14 @@ const About = () =>{
                         <p className="text-center m-1 text-xl md:text-2xl">Interaction2021　投稿・採録</p>
                         <p className="text-center m-1 text-xl md:text-2xl">DICOMO2021　投稿・採録</p>
                         <p className="text-center m-1 text-xl md:text-2xl">Interaction2022　投稿・採録</p>
-                        <p className="text-center m-1 text-xl md:text-2xl">IPSJジャーナル GN特集号　投稿</p>
+                        <p className="text-center m-1 text-xl md:text-2xl">IPSJジャーナル GN特集号　条件付き再録</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-blue-100 to-blue-200 border-b-8 border-blue-400 text-xl md:text-2xl py-5">実務</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
-                        <p className="m-1 text-center text-xl md:text-2xl py-5">株式会社LDBにてインターン経験あり</p>
+                        <p className="m-1 text-center text-xl md:text-2xl py-5">株式会社LDB　職種：Webエンジニア</p>
+                        <p className="m-1 text-center text-xl md:text-2xl py-5">ソフトバンク株式会社　職種：コンサル・5G&IoTエンジニア</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-purple-100 to-purple-200 border-b-8 border-purple-400 text-xl md:text-2xl py-5">資格</p>
