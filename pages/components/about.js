@@ -36,24 +36,34 @@ const About = () =>{
                         <p className="md:m-auto bg-gradient-to-r from-blue-100 to-blue-200 border-b-8 border-blue-400 text-xl md:text-2xl py-5">実績</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center py-5">
-                        <p className="text-center m-1 text-xl md:text-2xl">Interaction2021　投稿・採録</p>
-                        <p className="text-center m-1 text-xl md:text-2xl">DICOMO2021　投稿・採録</p>
-                        <p className="text-center m-1 text-xl md:text-2xl">Interaction2022　投稿・採録</p>
-                        <p className="text-center m-1 text-xl md:text-2xl">IPSJジャーナル GN特集号　条件付き再録</p>
+                        <p className="text-center mt-3 mr-3 ml-3 text-xl md:text-4xl px-4"><strong>情報処理学会論文誌</strong></p>
+                        <p className="text-center mr-3 ml-3 mb-3 text-xl md:text-4xl px-4"><strong>GN特集号　採録</strong></p>
+                        <p className="text-center m-3 text-xl md:text-2xl p-4">Interaction2021　投稿・採録</p>
+                        <p className="text-center m-3 text-xl md:text-2xl p-4">DICOMO2021　投稿・採録</p>
+                        <p className="text-center m-3 text-xl md:text-2xl p-4">Interaction2022　投稿・採録</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-blue-100 to-blue-200 border-b-8 border-blue-400 text-xl md:text-2xl py-5">実務</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
+                        <p className="mt-3 mr-3 ml-3 text-center text-xl md:text-3xl px-5"><strong>ソフトバンク株式会社</strong></p>
+                        <p className="mb-3 mr-3 ml-3 text-center text-xl md:text-3xl px-5"><strong>職種：コンサル・5G&IoTエンジニア</strong></p>
                         <p className="m-1 text-center text-xl md:text-2xl py-5">株式会社LDB　職種：Webエンジニア</p>
-                        <p className="m-1 text-center text-xl md:text-2xl py-5">ソフトバンク株式会社　職種：コンサル・5G&IoTエンジニア</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-purple-100 to-purple-200 border-b-8 border-purple-400 text-xl md:text-2xl py-5">資格</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="m-1 text-center text-xl md:text-2xl">TOEIC score 550</p>
-                        <p className="m-1 text-center text-xl md:text-2xl">AWS 認定試験(予定)</p>
+                        {/* <p className="m-1 text-center text-xl md:text-2xl">AWS 認定試験(予定)</p> */}
+                    </div>
+                    <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
+                        <p className="md:m-auto bg-gradient-to-r from-purple-100 to-purple-200 border-b-8 border-purple-400 text-xl md:text-2xl py-5">特技</p>
+                    </div>
+                    <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
+                        <p className="m-1 text-center text-xl md:text-2xl">マネジメント</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">極限の節約</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">耐久力</p>
                     </div>
                 </div>
             </div>
