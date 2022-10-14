@@ -142,6 +142,28 @@ const worksCardContents = [
         repository: "https://github.com/POD-azlamarhyu/getStockdata",
     },
     {
+        id: 7,
+        image: require("../../public/stockflask.png").default,
+        title: "Flask 株価データWebアプリ",
+        description: "FlaskにてWeb上で株価データを取得できるアプリです．",
+        useTech: [
+            
+            {
+                id:0,
+                mark: "devicon-python-plain colored",
+            },
+            {
+                id:1,
+                mark: "devicon-flask-original colored",
+            },
+            {
+                id:2,
+                mark: "devicon-pandas-original-wordmark",
+            },
+        ],
+        repository: "https://github.com/POD-azlamarhyu/Python_credit_charts",
+    },
+    {
         id: 4,
         image: require("../../public/watch_e.png").default,
         title: "JS Web Watch",
@@ -173,7 +195,20 @@ const worksCardContents = [
         ],
         repository: "https://github.com/POD-azlamarhyu/unity_tutorial_scrollegame",
     },
-    
+    {
+        id: 6,
+        image: '',
+        title: "Credit Card レーダーチャート",
+        description: "性能評価グラフを作るためのコードです．",
+        useTech: [
+            
+            {
+                id:0,
+                mark: "devicon-python-plain colored",
+            },
+        ],
+        repository: "https://github.com/POD-azlamarhyu/Python_credit_charts",
+    },
 
 ];
 

@@ -101,12 +101,9 @@ const skillCardContents = [
         description: "大学の授業のほか，サーバサイド言語の習得のため学んでいます．",
         color: skillCardCol.blue,
     },
-
-
-
     {
         id:20,
-        image: "devicon-unrealengine-original colored",
+        image: "devicon-unrealengine-original-wordmark",
         title: "Unreal Engine 5",
         stars: 2,
         description: "メタバースの開発やゲームの他，建築等で使用しています．",
