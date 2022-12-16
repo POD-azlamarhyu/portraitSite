@@ -48,6 +48,9 @@ const About = () =>{
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="mt-3 mr-3 ml-3 text-center text-xl md:text-3xl px-5"><strong>ソフトバンク株式会社</strong></p>
                         <p className="mb-3 mr-3 ml-3 text-center text-xl md:text-3xl px-5"><strong>職種：コンサル・5G&IoTエンジニア</strong></p>
+                        
+                        <p className="mt-3 mr-3 ml-3 text-center text-xl md:text-3xl px-5">Material Bank Japan株式会社（現職）</p>
+                        <p className="mb-3 mr-3 ml-3 text-center text-xl md:text-3xl px-5">職種：データエンジニア</p>
                         <p className="m-1 text-center text-xl md:text-2xl py-5">株式会社LDB　職種：Webエンジニア</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
