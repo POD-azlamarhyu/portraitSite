@@ -57,16 +57,17 @@ const About = () =>{
                         <p className="md:m-auto bg-gradient-to-r from-purple-100 to-purple-200 border-b-8 border-purple-400 text-xl md:text-2xl py-5">資格</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
-                        <p className="m-1 text-center text-xl md:text-2xl">TOEIC score 550</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">普通自動車免許</p>
                         {/* <p className="m-1 text-center text-xl md:text-2xl">AWS 認定試験(予定)</p> */}
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-purple-100 to-purple-200 border-b-8 border-purple-400 text-xl md:text-2xl py-5">特技</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
-                        <p className="m-1 text-center text-xl md:text-2xl">マネジメント</p>
-                        <p className="m-1 text-center text-xl md:text-2xl">極限の節約</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">自己マネジメント</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">極限の節約・倹約</p>
                         <p className="m-1 text-center text-xl md:text-2xl">耐久力</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">行動力</p>
                     </div>
                 </div>
             </div>
