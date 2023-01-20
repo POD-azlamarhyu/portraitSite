@@ -7,7 +7,7 @@ const hobbysCardContents = [
     {
         id: 0,
         image: require("../../public/travel.png").default,
-        title: "Travel　-鉄道旅行-",
+        title: "Travel　-旅行-",
         description: [
             {
                 id: 0,
