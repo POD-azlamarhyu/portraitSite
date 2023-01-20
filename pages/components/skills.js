@@ -103,7 +103,7 @@ const skillCardContents = [
     },
     {
         id:20,
-        image: "devicon-unrealengine-original-wordmark",
+        image: "devicon-unrealengine-original colored",
         title: "Unreal Engine 5",
         stars: 2,
         description: "メタバースの開発やゲームの他，建築等で使用しています．",

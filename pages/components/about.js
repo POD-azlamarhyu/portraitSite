@@ -24,13 +24,14 @@ const About = () =>{
                         <p className="md:m-auto bg-gradient-to-r from-green-100 to-green-200 border-b-8 border-green-400 text-xl md:text-2xl py-5">研究分野</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
-                        <p className="m-1 text-center text-xl md:text-2xl py-5">インタラクション・画像認識・IoT・アクセシビリティ</p>
+                        <p className="m-1 text-center text-xl md:text-2xl py-5">インタラクション・画像認識・IoT</p>
+                        <p className="m-1 text-center text-xl md:text-2xl py-5">アクセシビリティ</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-green-100 to-green-200 border-b-8 border-green-400 text-xl md:text-2xl py-5">進路</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
-                        <p className="m-1 text-center text-xl md:text-2xl py-5">同大学院に進学予定</p>
+                        <p className="m-1 text-center text-xl md:text-2xl py-5">就職予定</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
                         <p className="md:m-auto bg-gradient-to-r from-blue-100 to-blue-200 border-b-8 border-blue-400 text-xl md:text-2xl py-5">実績</p>
@@ -38,6 +39,7 @@ const About = () =>{
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center py-5">
                         <p className="text-center mt-3 mr-3 ml-3 text-xl md:text-4xl px-4"><strong>情報処理学会論文誌</strong></p>
                         <p className="text-center mr-3 ml-3 mb-3 text-xl md:text-4xl px-4"><strong>GN特集号　採録</strong></p>
+                        <p className=""><a className="text-center mr-3 ml-3 mb-3 text-lg md:text-xl px-4 text-blue-500 underline" href="https://www.ipsj.or.jp/journal/info/accept/october.html">情報処理学会論文誌　採録情報</a></p>
                         <p className="text-center m-3 text-xl md:text-2xl p-4">Interaction2021　投稿・採録</p>
                         <p className="text-center m-3 text-xl md:text-2xl p-4">DICOMO2021　投稿・採録</p>
                         <p className="text-center m-3 text-xl md:text-2xl p-4">Interaction2022　投稿・採録</p>
@@ -64,9 +66,9 @@ const About = () =>{
                         <p className="md:m-auto bg-gradient-to-r from-purple-100 to-purple-200 border-b-8 border-purple-400 text-xl md:text-2xl py-5">特技</p>
                     </div>
                     <div className="m-4 px-2 my-3 md:h-4/5 md:mx-3 md:px-2 md:py-2 text-center">
-                        <p className="m-1 text-center text-xl md:text-2xl">自己マネジメント</p>
-                        <p className="m-1 text-center text-xl md:text-2xl">極限の節約・倹約</p>
-                        <p className="m-1 text-center text-xl md:text-2xl">耐久力</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">目的のために努力ができる</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">目的のための節約・倹約</p>
+                        <p className="m-1 text-center text-xl md:text-2xl">耐久力・忍耐力</p>
                         <p className="m-1 text-center text-xl md:text-2xl">行動力</p>
                     </div>
                 </div>
